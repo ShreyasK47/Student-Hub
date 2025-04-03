@@ -14,7 +14,7 @@ export default function CreatStudent() {
     const [usn, setUsn] = useState("");
 
     return (
-        <div className="min-h-screen flex flex-col justify-center items-center">
+        <div className="min-h-screen bg-gray-200 flex flex-col justify-center items-center">
             <h1 className="text-3xl font-bold text-blue-500">Create Student</h1>
 
             <InputField
